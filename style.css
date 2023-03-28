@@ -1,3 +1,22 @@
+
+
+
+
+/* ## Global Styles */
 body {
-    background-color: blue !important;
+    background-color: whitesmoke;
+}
+
+
+
+/* ## Page - Organizers */
+
+/* Grid wordcamp-organizers */
+.wordcamp-block.wordcamp-organizers.alignwide {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.wordcamp-block.wordcamp-organizers.alignwide .wordcamp-post-list__post {
+    width: calc(50% - 25px );
 }
